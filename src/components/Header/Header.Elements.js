@@ -4,6 +4,8 @@ export const HeaderContainer = styled.header`
     width: 100%;
     height: 80px;
     display: flex;
+    position: fixed;
+    z-index: 999;
 `;
 
 export const HeaderLogoContainer = styled.div`
