@@ -13,6 +13,7 @@ const Header = ({ toggle }) => {
             <HeaderItem>About us</HeaderItem>
             <HeaderItem>Services</HeaderItem>
             <HeaderItem>Dashboards</HeaderItem>
+            <HeaderItem>Contact us</HeaderItem>
         <HeaderMenu onClick={() => toggle()}>
             <HiMenu size='30' />
         </HeaderMenu>

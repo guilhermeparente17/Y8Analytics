@@ -37,7 +37,7 @@ export const HeaderItem = styled.span`
         transition: 0.2s ease-in-out;
     }
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 850px) {
         display: none;
     }
 `;
@@ -48,7 +48,7 @@ export const HeaderMenu = styled.div`
     color: #fff;
     cursor: pointer;
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 850px) {
         display: block;
     }
 `;
