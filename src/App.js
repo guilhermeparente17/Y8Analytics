@@ -4,6 +4,7 @@ import Sidebar from "./components/Sidebar/Sidebar";
 import GlobalStyle from "./globalStyle";
 import InitialPage from "./components/InitialPage/InitialPage";
 import About from "./components/About/About";
+import Services from "./components/Services/Services";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -18,6 +19,7 @@ function App() {
       <Header toggle={toggle} />
       <InitialPage />
       <About />
+      <Services />
     </div>
   );
 }

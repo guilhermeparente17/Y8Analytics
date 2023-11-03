@@ -54,21 +54,26 @@ export const InitialContent = styled.div`
     align-items: center;
     justify-content: center;
     margin-top: -100px;
+
+    @media screen and (max-width: 500px) {
+        margin-top: 0px;
+    }
 `;
 
 export const InitialTitle = styled.h1`
     color: #fff;
     font-weight: bold;
-    font-size: 65px;
+    font-size: 55px;
     text-align: center;
     margin-bottom: 50px;
 
     @media screen and (max-width: 700px) {
-        font-size: 50px;
+        font-size: 30px;
     }
 
     @media screen and (max-width: 500px) {
         font-size: 30px;
+        line-height: 50px;
     }
 `;
 

@@ -10,7 +10,7 @@ const InitialPage = () => {
             <GrayOverlay />
         </InitialBg>
         <InitialContent>
-            <InitialTitle>A forma mais esperta de <br /> controlar seus dados.</InitialTitle>
+            <InitialTitle>The smartest way to manage <br /> your data and generate information trough <br /> Data Analytics</InitialTitle>
             <InitialButtom>Dashboards</InitialButtom>
         </InitialContent>
     </InitialContainer>
